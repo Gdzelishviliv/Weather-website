@@ -3,10 +3,10 @@
         background: url(./photos/tablet\ wallpaper.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    
     }
     .web-icn{
         background: url(./photos/web\ icn\ tablet.png);
+        background-repeat: no-repeat;
         height: 31px;
         width: 56px;
     }
@@ -62,5 +62,83 @@
     }
     .weather-details >div{
         font-size: 18px;
+    }
+}
+@media screen and (min-width:1200px) {
+    body {
+        background: url(./photos/desktop\ walpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .web-icn{
+        background: url(./photos/desktop\ logo.svg);
+        background-repeat: no-repeat;
+        height: 41px;
+        width: 83px;
+    }
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+    .testimonials{
+        border-left: 5px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(9.5px);
+        border-top: 0px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 526px;
+        padding-left: 35px;
+        height: 801px;
+    }
+    .search-inp{
+        position: relative;
+        z-index: 1;
+    }
+    .head{
+        padding-inline: 120px;
+    }
+    .weather-info{
+        margin: 0px;
+    }
+    h5,h3{
+        text-align: start;
+    }
+    input{
+        width: 371px;
+        font-size: 20px;
+        height: 50px;
+    }
+    .search-btn-icn{
+        background: url(./photos/search-icn-desc.svg);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        top: 9px;
+        right: 17px;
+    }
+    h1{
+        font-size: 143px;
+        letter-spacing: -11.44px;
+    }
+    h2{
+        font-size: 60px;
+        margin-top: 70px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .weather-icn{
+        background: url(./photos/cloud-desctop.svg);
+        background-repeat: no-repeat;
+        width: 63px;
+        height: 63px;
+        margin-top: 91px;
+    }
+    .weather-sec{
+        position: absolute;
+        top: 478px;
+        left: 110px;
+        padding: 0;
     }
 }
