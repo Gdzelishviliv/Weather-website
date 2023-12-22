@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    background: url(./photos/4f6ff00a8fc0eb0798fedfcde9ded9c1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.web-icn{
+    background: url(./photos/web\ icn.svg);
+    background-repeat:no-repeat ;
+    width: 35px;
+    height: 20px;
+}
+.container{
+    margin :auto;
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 22px;
+    align-items: center;
+    margin-top: 19px;
+}
+.search-inp{
+    position: relative;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+input{
+    width: 135px;
+    background-color: transparent;
+    border-color: transparent;
+    color:#FFFFFFB2;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+.search-btn-icn{
+    position: absolute;
+    background: url(./photos/search-icn.svg);
+    background-repeat: no-repeat;
+    height: 15px;
+    top: 5px;
+    right: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 107px;
+}
+.weather-sec{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding-left: 22px;
+}
+h1{
+    margin-right: 10px;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -5.12px;
+    margin-bottom: 30px;
+}
+h2{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+p{
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+}
+.weather-icn{
+    background: url(./photos/weather-icn.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 36px;
+    margin-left: 5px;
+}
+.weather-info{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto;
+    margin: auto;
+    width: 285px;
+    color: #fff;
+    padding-bottom: 96px;
+    border-bottom: 1px solid #fff;
+}
+h5{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+h3{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFFB2;
+}
+.weather-details >div{
+    color: #fff;
+}
+.testimonials{
+    padding-top: 55px;
+    border-top: 5px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(9.5px);
+    padding-bottom: 41px;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 12px;
+    font-weight: 400;
+}

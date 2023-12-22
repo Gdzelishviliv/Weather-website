@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+    body {
+        background: url(./photos/tablet\ wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .web-icn{
+        background: url(./photos/web\ icn\ tablet.png);
+        height: 31px;
+        width: 56px;
+    }
+    input{
+        font-size: 18px;
+        width: 305px;
+        height: 25px;
+    }
+    .search-btn-icn{
+        background: url(./photos/search-icn-tablet.svg);
+        background-repeat: no-repeat;
+        width: 22px;
+        height: 22px;
+        top: 0px;
+        right: 0px;
+    }
+    input::placeholder{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .head{
+        padding-inline: 39px;
+    }
+    h1{
+        font-size: 120px;
+        letter-spacing: -9.6px;
+        margin-bottom: 44px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .weather-sec{
+        padding-left: 39px;
+    }
+    .weather-icn{
+        background: url(./photos/cloud-tablet.svg);
+        background-repeat: no-repeat;
+        height: 54px;
+        width: 52px;
+        margin-left: 10px;
+    }
+    .testimonials{
+        padding-top: 107px;
+    }
+    h5,h3,span{
+        font-size: 18px;
+    }
+    .weather-info{
+        width: 354px;
+    }
+    .weather-details >div{
+        font-size: 18px;
+    }
+}
